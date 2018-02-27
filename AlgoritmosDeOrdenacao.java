@@ -13,13 +13,14 @@ package Ordem;
 public class AlgoritmosDeOrdenacao {
     //Ordena um vetor de inteiros
     public static int[] combSort (int[] vetor){
-        
-        double valor;
-        valor = (double)1.3;
+
+       // alterações 0.2 
+        float valor;
+        valor = (float)1.3;
         
         int tamanho = vetor.length;
         float incremento;
-        incremento = (float)tamanho/valor;
+        incremento = (int)tamanho/valor;
         int trocas;
         trocas = 1;
         
