@@ -15,11 +15,11 @@ public class AlgoritmosDeOrdenacao {
     public static int[] combSort (int[] vetor){
         
         float valor;
-        valor = (float)1.3;
+        valor = (int)1.3;
         
         int tamanho = vetor.length;
         float incremento;
-        incremento = (float)tamanho/valor;
+        incremento = (int)tamanho/valor;
         int trocas;
         trocas = 1;
         
