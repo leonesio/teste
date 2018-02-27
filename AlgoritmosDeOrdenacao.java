@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -14,8 +14,8 @@ public class AlgoritmosDeOrdenacao {
     //Ordena um vetor de inteiros
     public static int[] combSort (int[] vetor){
         
-        float valor;
-        valor = (float)1.3;
+        double valor;
+        valor = (double)1.3;
         
         int tamanho = vetor.length;
         float incremento;
