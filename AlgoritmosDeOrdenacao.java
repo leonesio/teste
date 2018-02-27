@@ -12,7 +12,7 @@ package Ordem;
 public class AlgoritmosDeOrdenacao {
     //Ordena um vetor de inteiros
     public static int[] combSort (int[] vetor){
-        
+       // alterações 0.2 
         float valor;
         valor = (float)1.3;
         
