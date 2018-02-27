@@ -9,6 +9,7 @@ package Ordem;
  *
  * @author cassiano
  */
+ //Comentário Leonésio
 public class AlgoritmosDeOrdenacao {
     //Ordena um vetor de inteiros
     public static int[] combSort (int[] vetor){
@@ -43,6 +44,7 @@ public class AlgoritmosDeOrdenacao {
         return vetor;
     }
     
+   //Classe principal para teste
     public static void main (String[] args){
         int[] vetor = {4,5,2,3,9,7,1,8,20,56,13,89,76,54,17,0};
         vetor = combSort (vetor);
