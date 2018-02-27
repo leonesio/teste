@@ -1,0 +1,8 @@
+git clone : 
+cd teste :
+git status :
+git pull :
+git commit -m "" :
+git add -A :
+git push :
+cd .. :
